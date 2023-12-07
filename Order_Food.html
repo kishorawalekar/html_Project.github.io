@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order food</title>
+</head>
+<body background="background.jpg">
+    <center>
+        <form action="http://127.0.0.1:5500/HTML%20Project/last_page.html">
+           
+            <img src="order.png" alt="img"><br>
+           
+            <label for="uname"><b>Full Name</b></label>
+            <input type="text" id="uname" required placeholder="Gopal Raj"> <br> <br>
+           
+            
+            <label for="mail"><b>Email</b></label>
+            <input type="email" id="mail" required placeholder="example.@gmail.com"> <br><br>
+            <label for="pno"><b>Phone</b></label>
+            <input type="text" id="pno" required pattern="[6-9]{1}[0-9]{9}" placeholder="ex:1234567890"><br><br>
+            <label for="x"><b>Select City</b></label>
+            <input list="L" id="x" placeholder="Select">
+                <datalist id="L" >
+                    <option >Bangalore</option>
+                    <option >Pune</option>
+                    <option >Mumbai</option>
+                    <option >Belgaum</option>
+                    <option >Mysure</option> 
+                    <option >Sangali</option> 
+                    
+                 
+                </datalist><br><br>
+            
+            <label for="z"><b>Select Food Item</b></label>
+        <input list="Location" id="z" placeholder="Select">
+            <datalist id="Location" >
+                <option >Chicken Biryani</option>
+                <option >Sandwich</option>
+                <option >cake</option>
+                <option >pizza</option>
+                <option >Icecream</option> 
+                <option >Burger</option> 
+                <option >Paneer Masala</option>
+             
+            </datalist><br><br>
+            <label for="add"><b>Address</b></label>
+            <input type="text" id="add" required placeholder="Type here...."> <br><br>
+           
+           <input type="submit">
+        
+        </form>
+    </center>
+    
+</body>
+</html>
